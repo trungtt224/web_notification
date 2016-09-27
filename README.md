@@ -16,13 +16,12 @@ This is very simple demo to demonstrate the Push APIand show basic service worke
    (Note: You will need to add a security exception) 
 5. Push notification using commannd: 
 
-	After allow to receive notifications, using enpoint to push notification via command line 
+	After allow to receive notifications, using endpoint to push notification via command line 
 	
-	Copy enpoint from alert in browser
+	Copy endpoint from alert in browser
 	
-        curl -X POST [enpoint]
+        curl -X POST [endpoint]
 
     For example
     
         curl -X POST https://updates.push.services.mozilla.com/wpush/v1/gAAAAABX6isuVcm19HCJHpBET7ZhSNbMaYR6kasTQwb4Ub6T81LpFE4MX6zlhGyHwMgPUHkmPO5yXbUbcjrxIuAkHVYW1iN5HvbDcZByupyDBGz5Mqlli0Xw-ZfiqsMc8-VAoYAIirc0
-	  	 
